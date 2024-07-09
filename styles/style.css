@@ -167,3 +167,50 @@ body {
 }
 
 /**second section ends here   */
+
+/**third section starts here   */
+.date-and-time {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  /* border: 3px solid red; */
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.date-and-time .upperside span {
+  color: red;
+}
+.date-and-time .lowerside button {
+  font-family: Inter;
+  border-radius: 8px;
+
+  background: rgb(255, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: none;
+  margin-top: 48px;
+}
+
+/**third section ends here   */
